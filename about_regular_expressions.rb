@@ -145,7 +145,7 @@ class AboutRegularExpressions < Neo::Koan
   #
   # Explain the difference between a character class ([...]) and alternation (|).
 
-  # ------------------------------------------------------------------
+  # ----------------------------------------------------------------
 
   def test_scan_is_like_find_all
     assert_equal ["one", "two", "three"], "one two-three".scan(/\w+/)
